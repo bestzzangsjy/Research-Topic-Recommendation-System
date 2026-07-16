@@ -43,5 +43,4 @@ if st.button("추천 받기") and user_query:
                 st.subheader(f"{rank}등. [{row['category']}] {row['topic']}")
                 st.write(f"**관련 교과:** {row['subject']}")
                 st.write(f"**탐구 내용:** {row['description']}")
-                st.write(f"**추천 정확도:** {score:.2%}")
                 st.markdown("---")
